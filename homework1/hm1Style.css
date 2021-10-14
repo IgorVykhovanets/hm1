@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/378/414/368/rammstein-wallpaper-preview.jpg");
+}
+
+h1 {
+    font-size: 60px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+h1 > a {
+    color: darkred;
+    text-decoration: none;
+}
+
+h1 > a:hover {
+    color: white;
+}
+
+.ramTitle {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RAMMSTEIN {
+    color: darkred;
+    font-family: fantasy;
+    font-size: 28px;
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.ramTitle > img {
+    height: 300px;
+    width: 600px;
+    border-radius: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.squad > h2 {
+    font-size: 25px;
+    font-family: fantasy;
+    color: #b4b4b4;
+    text-align: center;
+}
+
+.squad > ul {
+    text-align: center;
+    color: #dcdcdc;
+    font-size: 17px;
+    font-family: fantasy;
+    padding: 5px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.squad > ul > li > a {
+    color: darkred;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.squad > ul > li > a:hover {
+    color: white;
+}
+
+p {
+    color: #dcdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 18px;
+    margin: 5px;
+    font-family: fantasy;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.members > .bio {
+    color: #dcdcdc;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: fantasy;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.members > .bio > h2 {
+    margin: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-right: white solid 1px;
+}
+
+.members > .bio > h2 > a {
+    text-decoration: none;
+    color: darkred;
+}
+
+.members > .bio > h2 > a:hover {
+    color: white;
+}
+
+.end {
+    width: 100%;
+}
