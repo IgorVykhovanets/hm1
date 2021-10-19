@@ -1,0 +1,58 @@
+.menu{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    background: black;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.a{
+    height: 200px;
+    width: 100%;
+    background: darkred;
+}
+.menu2{
+    width: 75%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.b{
+    width: 350px;
+    height: 270px;
+    background: darkgreen;
+}
+.c{
+    width: 350px;
+    height: 270px;
+    background: deeppink;
+}
+.d{
+    width: 350px;
+    height: 270px;
+    background: darkorange;
+}
+.e{
+    width: 350px;
+    height: 270px;
+    background: darkblue;
+}
+.f{
+    width: 350px;
+    height: 270px;
+    background: red;
+}
+.g{
+    width: 350px;
+    height: 270px;
+    background: coral ;
+}
+.h{
+    height: 590px;
+    width: 25%;
+    background: crimson;
+}

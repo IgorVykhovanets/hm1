@@ -1,0 +1,43 @@
+.menu{
+    height: 750px;
+    width: 1000px;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.a{
+    height: 150px;
+    width: 100%;
+    background: cyan;
+}
+.b{
+    height: 150px;
+    width: 750px;
+    background: purple;
+    margin: 0;
+}
+.menu3{
+    height: 450px;
+    width: 750px;
+    background: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+}
+.c{
+    height: 450px;
+    width: 250px;
+    background: darkorange;
+}
+.d{
+    width: 250px;
+    background: darkturquoise;
+}
+.e{
+    width: 250px;
+    background: darkred;
+}
+.f{
+    height: 600px;
+    width: 250px;
+    background: crimson;
+}

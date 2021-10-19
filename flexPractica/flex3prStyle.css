@@ -1,0 +1,45 @@
+.menu{
+    height: 1100px;
+    width: 1000px;
+    background: coral;
+    display: flex;
+    flex-wrap: wrap;
+}
+.home{
+    height: 500px;
+    width: 490px;
+    background: red;
+    margin: 5px;
+}
+.about{
+    height: 500px;
+    width: 490px;
+    background: darkblue;
+    margin: 5px;
+}
+.kabobs{
+    height: 300px;
+    width: 100%;
+    background: crimson;
+    padding-top: 5px;
+}
+.box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.box1{
+    height: 250px;
+    width: 300px;
+    background: deeppink;
+}
+.box2{
+    height: 250px;
+    width: 300px;
+    background: aqua;
+}
+.box3{
+    height: 250px;
+    width: 300px;
+    background: beige;
+}
