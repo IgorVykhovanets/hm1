@@ -1,0 +1,37 @@
+.menu{
+    min-height: 750px;
+    width: 900px;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.widgets {
+    height: 200px;
+    width: 750px;
+    background: #ff0039;
+    margin: 5px;
+}
+.bigwid{
+    height: 150px;
+    width: 247px;
+    background: cyan;
+    margin-right: 5px;
+}
+.biggerwid{
+    height: 150px;
+    width: 247px;
+    background: darkblue;
+}
+.hugewid{
+    height: 150px;
+    width: 247px;
+    background: forestgreen;
+    margin-left: 5px;
+}
+.contact{
+    height: 400px;
+    width: 750px;
+    background: darkgoldenrod;
+    margin: 5px;
+}

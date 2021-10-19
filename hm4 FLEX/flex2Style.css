@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.allmenu{
+    height: 1000px;
+    width: 800px;
+    /*background-color: black;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    border: 5px solid black;
+    margin: 20px;
+}
+.header{
+    height: 100px;
+    width: 703px;
+    background: #ff0000;
+}
+.menu{
+    height: 550px;
+    width: 165px;
+    background: purple;
+}
+.post1{
+    height: 258px;
+    width: 525px;
+    background: cyan;
+    margin-bottom: 30px;
+}
+.post2{
+    height: 258px;
+    width: 525px;
+    background: cyan;
+}
+.footer{
+    height: 100px;
+    width: 703px;
+    background: #ff0039;
+}

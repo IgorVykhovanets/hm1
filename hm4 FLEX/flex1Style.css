@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+.menu{
+    margin: 10px;
+    height: 750px;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.box1{
+    height: 100px;
+    width: 1400px;
+    background-color: darkred;
+}
+.box2{
+    height: 600px;
+    width: 1080px;
+    background-color: darkviolet;
+}
+.box3{
+    height: 600px;
+    width: 300px;
+    background-color: cyan;
+}

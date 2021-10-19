@@ -1,0 +1,33 @@
+.menu{
+    height: 750px;
+    width: 1000px;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+}
+.header{
+    height: 150px;
+    width: 100%;
+    background: #ff0039;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    background: cyan;
+}
+.main{
+    height: 400px;
+    width: 75%;
+    background: darkgoldenrod;
+}
+.aside{
+    height: 400px;
+    width: 25%;
+    background: darkred;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background: darkorange;
+}
