@@ -1,4 +1,8 @@
-.menu{
+.radius{
+    border-radius: 20px;
+}
+
+.product{
     min-height: 750px;
     width: 900px;
     background: black;
@@ -6,30 +10,19 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.widgets {
+.header {
     height: 200px;
     width: 750px;
     background: #ff0039;
     margin: 5px;
 }
-.bigwid{
+.box-content{
     height: 150px;
     width: 247px;
     background: cyan;
-    margin-right: 5px;
+    margin: 0 2px 0 2px;
 }
-.biggerwid{
-    height: 150px;
-    width: 247px;
-    background: darkblue;
-}
-.hugewid{
-    height: 150px;
-    width: 247px;
-    background: forestgreen;
-    margin-left: 5px;
-}
-.contact{
+.footer{
     height: 400px;
     width: 750px;
     background: darkgoldenrod;

@@ -1,10 +1,15 @@
 body{
     margin: 0;
 }
-.allmenu{
+.color{
+    background: darkblue;
+}
+.radius{
+    border-radius: 20px;
+}
+.all-menu{
     height: 1000px;
     width: 800px;
-    /*background-color: black;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -16,26 +21,17 @@ body{
 .header{
     height: 100px;
     width: 703px;
-    background: #ff0000;
 }
-.menu{
+.left-box{
     height: 550px;
     width: 165px;
-    background: purple;
 }
-.post1{
+.content-box{
     height: 258px;
     width: 525px;
-    background: cyan;
-    margin-bottom: 30px;
-}
-.post2{
-    height: 258px;
-    width: 525px;
-    background: cyan;
+    margin: 20px 0 20px 0;
 }
 .footer{
     height: 100px;
     width: 703px;
-    background: #ff0039;
 }

@@ -1,27 +1,32 @@
-body{
-    margin: 0;
+.border-color{
+    border-radius: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.63);
+    background: rgba(0, 0, 0, 0.22);
 }
-.menu{
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-menu{
     margin: 10px;
     height: 750px;
-    width: 1500px;
+    width: 1000px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 20px;
+    padding: 15px 15px 0 15px;
 }
 .box1{
     height: 100px;
-    width: 1400px;
-    background-color: darkred;
+    width: 1000px;
 }
 .box2{
     height: 600px;
-    width: 1080px;
-    background-color: darkviolet;
+    width: 657px;
 }
 .box3{
     height: 600px;
-    width: 300px;
-    background-color: cyan;
+    width: 315px;
 }
