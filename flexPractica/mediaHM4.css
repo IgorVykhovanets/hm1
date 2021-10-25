@@ -1,0 +1,137 @@
+@media screen and (max-width: 375px) and (max-height: 812px) {
+    .all-menu-header{
+        margin-right: 0;
+    }
+    .title-menu-left {
+        margin-left: 0;
+    }
+
+    .title-menu-right {
+        margin-right: 0;
+    }
+
+    .title-menu-box-1 {
+        width: 20px;
+    }
+
+    .title-menu-box-2 {
+        width: 30px;
+    }
+
+    .box-image-1 {
+        width: 50px;
+    }
+
+    .footer-image {
+        padding: 0;
+        width: 7px;
+    }
+    .about-image{
+        column-gap: 0;
+    }
+
+    .product__2 {
+        flex-direction: column;
+    }
+
+    .product-2-content-box1, .product-2-content-box2, .product-2-content-box3 {
+        height: 350px;
+        /*margin: 50px;*/
+    }
+
+    .product__2__min__box-1 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .all__menu {
+        height: 4500px;
+    }
+
+    .info__product__card {
+        width: 300px;
+    }
+
+    .img_product_card {
+        width: 290px;
+    }
+
+    .big__two__card__product {
+        margin: 2700px auto 0 auto;
+    }
+    .header__min__box__left, .header__min__box__right{
+        width: 50px;
+        margin: 0 auto;
+    }
+    .header__big__card__right{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 812px) and (max-height: 375px){
+    .all-menu-header{
+        margin-right: 0;
+    }
+    .title-menu-left {
+        margin-left: 0;
+    }
+
+    .title-menu-right {
+        margin-right: 0;
+    }
+
+    .title-menu-box-1 {
+        width: 20px;
+    }
+
+    .title-menu-box-2 {
+        width: 30px;
+    }
+
+    .box-image-1 {
+        width: 50px;
+    }
+
+    .footer-image {
+        padding: 0;
+        width: 7px;
+    }
+    .about-image{
+        column-gap: 0;
+    }
+
+    .product__2 {
+        flex-direction: column;
+    }
+
+    .product-2-content-box1, .product-2-content-box2, .product-2-content-box3 {
+        height: 350px;
+    }
+
+    .product__2__min__box-1 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .all__menu {
+        height: 2700px;
+    }
+
+    .info__product__card {
+        width: 300px;
+    }
+
+    .img_product_card {
+        width: 290px;
+    }
+
+    .big__two__card__product {
+        margin: 900px auto 0 auto;
+    }
+    .header__min__box__left, .header__min__box__right{
+        width: 50px;
+        margin: 0 auto;
+    }
+    .header__big__card__right{
+        width: 100px;
+    }
+}
