@@ -1,0 +1,74 @@
+@media screen and (max-width: 375px) and (max-height: 812px){
+    .header__logo{
+        width: 100px;
+        height: 100px;
+    }
+    .header__menu{
+        display: none;
+    }
+    .header_menu_iphone{
+        display: flex;
+    }
+    .header_menu_iphone{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 4px;
+        margin-top: 23px;
+    }
+    .header__menu__iphone__box{
+        width: 35px;
+        height: 4px;
+        background: #FF7400;
+        border-radius: 50px;
+    }
+    .header__opus h2{
+        margin-left: 40px;
+        font-family: Tinos;
+        font-size: 34px;
+        line-height: 34px;
+        width: 300px;
+        height: 34px;
+        text-align: center;
+    }
+    .header__opus h1{
+        margin: 15px 0 0 10px;
+        font-family: Tinos;
+        font-size: 60px;
+        line-height: 34px;
+    }
+    .header__opus p{
+        margin: -25px 0 0 30px;
+    }
+    .header__opus p::before, .header__opus p::after{
+        display: none;
+    }
+    .header__opus button{
+        margin: 30px 0 0 130px;
+    }
+    .box__histori{
+        flex-direction: column;
+        row-gap: 14px;
+    }
+    .box__min{
+        left: 13px;
+    }
+    .histori__left__page h1{
+        margin: 0 auto;
+        width: 161px;
+        height: 20px;
+        text-align: center;
+    }
+    .histori__left__page p{
+        margin: 150px 0 0 15px;
+        width: 350px;
+        height: 341px;
+        font-family: Open Sans;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .numbers__histori__page{
+        margin: 0;
+    }
+}
