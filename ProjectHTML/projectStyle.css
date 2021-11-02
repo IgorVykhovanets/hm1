@@ -27,6 +27,17 @@ body{
     line-height: 16px;
     color: #FFFFFF;
 }
+.header__menu__left__box__1, .header__menu__left__box__2{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-right: 40px;
+}
+.header__menu__left__box__1 img, .header__menu__left__box__2 img{
+    margin-left: 5px;
+}
 .header__menu__left__box{
     padding: 0 45px 0 0;
 }
@@ -35,6 +46,9 @@ body{
 }
 .header__menu__left__box img{
     padding: 0 5px 0 5px;
+}
+.header__mobile__menu{
+    display: none;
 }
 /*меню з пошуком товарів -- all menu boxing*/
 
@@ -698,4 +712,16 @@ body{
     line-height: 21px;
     color: #FFFFFF;
     margin-left: 20px;
+}
+.search__menu__button button img{
+    display: none;
+}
+.all__phone__menu{
+    display: none;
+}
+.phone__box{
+    display: none;
+}
+.img__phone{
+    display: none;
 }

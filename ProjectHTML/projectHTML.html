@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="projectStyle.css">
+    <link rel="stylesheet" href="projectMEDIA.css">
     <title>Final Project</title>
 </head>
 <body>
@@ -17,11 +18,16 @@
         <div class="header__menu__all__left d-flex">
             <div class="header__menu__left__box d-flex align-items-center"><img src="image/placeholder%20white.png"
                                                                                 alt="placeholder">Ваш город: Москва
+                <div class="header__mobile__menu">Еще <img src="image/mobile%20menu.png" alt="mobile menu"></div>
             </div>
-            <div class="header__menu__left__box d-flex align-items-center">Информация<img src="image/Group.png"
-                                                                                          alt="group"></div>
-            <div class="header__menu__left__box d-flex align-items-center">Сотрудничество<img src="image/Group.png"
-                                                                                              alt="group"></div>
+            <div class="header__menu__left__box__1 d-flex align-items-center">
+                <div>Информация</div>
+                <img src="image/Group.png"
+                     alt="group"></div>
+            <div class="header__menu__left__box__2 d-flex align-items-center">
+                <div>Сотрудничество</div>
+                <img src="image/Group.png"
+                     alt="group"></div>
         </div>
         <div class="header__menu__all__right d-flex">
             <div class="header__menu__right__box">Доставка</div>
@@ -54,7 +60,7 @@
         </div>
         <div class="menu__top__box__4 d-flex justify-content-center align-items-center"><img
                 src="image/whatsapp%20(2)%201.png" alt="whatsapp">
-            <div class="box__4__block__2"><h2>Напишите нам в WhatsApp</h2></div>
+            <div class="box__4__block__2"><h2>Напишите <span>нам</span> в WhatsApp</h2></div>
         </div>
         <div class="menu__top__box__5"><h2>+7 383 291 92 86</h2>
             <div class="box__5__block__2"><h3>форма обратной связи</h3></div>
@@ -68,13 +74,15 @@
                     <div class="button__menu"></div>
                     <div class="button__menu"></div>
                 </div>
-                Каталог
+                <span>Каталог</span>
             </button>
         </div>
         <div class="bottom__box__2 d-flex justify-content-center align-items-center">
-            <div class="search__menu"><h3>Поиск по наименованию или артикулу</h3></div>
+            <div class="search__menu"><h3>Поиск по наименованию <span>или артикулу</span></h3></div>
             <div class="search__menu__button d-flex justify-content-center align-items-center">
-                <button>Найти</button>
+                <button>
+                    <div>Найти</div>
+                    <img src="image/search%20(2)%201.png" alt="search"></button>
             </div>
         </div>
         <div class="bottom__box__3 d-flex justify-content-center align-items-center"><img src="image/user%20(1)%201.png"
@@ -206,6 +214,16 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="all__phone__menu d-flex justify-content-around align-items-center">
+                <div class="phone__box"><img src="image/home%20phone.png" alt="phone">
+                    <h3>Главная</h3></div>
+                <div class="phone__box"><img src="image/heart%20phone.png" alt="heart">
+                    <h3><span>Избранное</span></h3></div>
+                <div class="phone__box"><img src="image/cart%20phone.png" alt="cart">
+                    <h3>Корзина</h3></div>
+                <div class="phone__box"><img src="image/user%20phone.png" alt="user">
+                    <h3>Профиль</h3></div>
             </div>
         </div>
     </div>
@@ -414,7 +432,7 @@
         <div class="news__background"></div>
         <div class="news__list d-flex justify-content-between">
             <div class="news__box__1 col-3">
-                <img src="image/Group%2043.png" alt="news">
+                <img class="image__news" src="image/Group%2043.png" alt="news">
                 <div class="news__link"><a href="#">Изменения на сайте</a></div>
                 <p>Недавно на сайте мы ввели
                     очередную порцию изменений,
@@ -425,7 +443,7 @@
                     не заставила себя долго ждать...</p>
             </div>
             <div class="news__box__2 col-3">
-                <img src="image/Group%2044.png" alt="news">
+                <img class="image__news" src="image/Group%2044.png" alt="news">
                 <div class="news__link"><a href="#">Вышла новая версия для <br>
                     мобильных приложений</a></div>
                 <p>Что нового в 2.0:
@@ -434,7 +452,7 @@
                     <br> — испрвление ошибок.</p>
             </div>
             <div class="news__box__3 col-3">
-                <img src="image/Group%2045.png" alt="news">
+                <img class="image__news" src="image/Group%2045.png" alt="news">
                 <div class="news__link"><a href="#">Очередная порция обновлений для <br>
                     мобильных приложений</a></div>
                 <p>Что нового добавлено:
@@ -445,7 +463,7 @@
                     <br> — исправление ошибок.</p>
             </div>
             <div class="news__box__4 col-3">
-                <img src="image/Group%2046.png" alt="news">
+                <img class="image__news" src="image/Group%2046.png" alt="news">
                 <div class="news__link"><a href="#">Интерфейс заказов для покупателей <br>
                     стал более функциональным</a></div>
                 <p>Он позволяет выводить все
