@@ -1,0 +1,701 @@
+/*google font url*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Roboto:wght@100;300;500&display=swap');
+
+/*body*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*головне меню-- top menu -- header*/
+
+.header{
+    height: 36px;
+}
+.header__menu__all{
+    height: 36px;
+    background: #0F2438;
+    padding: 0 50px 0 50px;
+    box-sizing: border-box;
+}
+.header__menu__left__box, .header__menu__right__box{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.header__menu__left__box{
+    padding: 0 45px 0 0;
+}
+.header__menu__right__box{
+    padding: 0 30px 0 0;
+}
+.header__menu__left__box img{
+    padding: 0 5px 0 5px;
+}
+/*меню з пошуком товарів -- all menu boxing*/
+
+.all__menu__boxing{
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+.all__menu__top{
+    padding: 15px 135px 0 115px;
+    box-sizing: border-box;
+}
+.all__menu__bottom{
+    padding: 25px 145px 0 125px;
+    box-sizing: border-box;
+}
+.menu__top__box__1 h1{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0F2438;
+}
+.menu__top__box__1 h2{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0F2438;
+}
+.box__2__block__2{
+    position: relative;
+    top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.box__2__block__2 h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #0F2438;
+}
+.menu__top__box__2 img{
+    height: 35px;
+}
+.box__3__block__2 h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+}
+.menu__top__box__4{
+    width: 204px;
+    height: 30px;
+    background: #E1EFD0;
+    border-radius: 2px;
+}
+.box__4__block__2 h2{
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    position: relative;
+    top: 4px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.menu__top__box__5{
+    position: relative;
+    top: 10px;
+}
+.menu__top__box__5 h2{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0F2438;
+}
+.box__5__block__2 h3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: rgba(15, 36, 56, 0.58);
+    text-align: right;
+}
+.bottom__box__1{
+    width: 164px;
+    height: 53px;
+    background: #005BB9;
+    border-radius: 6px;
+}
+.bottom__box__1 button{
+    border: none;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: none;
+    cursor: pointer;
+}
+.button__menu{
+    width: 20px;
+    height: 3px;
+    background: #FFFFFF;
+}
+.all__menu__button{
+    row-gap: 2px;
+    margin: 0 12px 0 0;
+}
+.search__menu{
+    width: 540px;
+    height: 50px;
+    background: #F4F5FA;
+    border-radius: 6px 0px 0px 6px;
+}
+.search__menu h3{
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(194, 197, 218, 0.77);
+}
+.search__menu__button{
+    width: 101px;
+    height: 50px;
+    background: #005BB9;
+    border-radius: 0px 6px 6px 0px;
+    cursor: pointer;
+}
+.search__menu__button button{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: none;
+    border: none;
+}
+.bottom__box__3{
+    border-right: 1px solid #E1E5F8;
+}
+.bottom__box__3 h2{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+    margin: 0 25px 0 10px;
+}
+.bottom__box__4{
+    border-right: 1px solid #E1E5F8;
+}
+.bottom__box__4 h3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+    margin: 0 25px 0 10px;
+}
+.bottom__box__5 h3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+    margin: 0 0 0 10px;
+}
+
+/* слайдер + товари з правої сторони -- header product*/
+
+.product__top__slaider{
+    width: 950px;
+    height: 390px;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    width: 950px;
+    height: 300px;
+}
+.carousel__item__box__1{
+    position: relative;
+    bottom: 320px;
+    left: 100px;
+}
+.carousel__item__box__1 h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0A1A2C;
+}
+.item__box__1__header{
+    margin-bottom: 25px;
+}
+.item__box__1__header h4{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: rgba(113, 113, 113, 0.27);
+}
+.item__box__1__footer h3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+}
+.item__box__1__footer h4{
+    font-family: Roboto;
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+.item__box__1__button{
+    width: 160px;
+    height: 49px;
+    background: #005BB9;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.item__box__1__button button{
+    background: none;
+    border: none;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.item__box__1__button button img{
+    margin-right: 10px;
+}
+.carousel__item__box__1 > .item__box__1__img{
+    position: relative;
+    left: 350px;
+    bottom: 250px;
+}
+.carousel-item > img{
+    border: 20px;
+}
+.product__top__box{
+    width: 340px;
+    height: 147px;
+    background: #F4F5FA;
+    border-radius: 10px;
+    margin: 2px 7px;
+}
+.product__top__box h3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+}
+.product__box__right  h2{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #0A1A2C;
+}
+.product__box__right h3{
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+}
+.product__box__right{
+    position: relative;
+    left: 130px;
+    bottom: 80px;
+}
+.product__box__left{
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+.product__box__bottom h3{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+}
+.product__box__bottom h4{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+    margin: 0 5px;
+    position: relative;
+    top: 4px;
+}
+.product__box__bottom button{
+    width: 50px;
+    height: 40px;
+    background: #005BB9;
+    border-radius: 6px;
+    border: none;
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+}
+.product__box__bottom{
+    position: relative;
+    left: 130px;
+    bottom: 80px;
+}
+.header__product{
+    margin: 30px 10px 0 140px;
+}
+
+/*товари під слайдером -- product__bottom__menu*/
+
+.product__bottom__menu{
+    margin: 0 100px 0 120px;
+}
+.product__box__menu__bottom{
+    width: 600px;
+    height: 184px;
+    background: #FFFFFF;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-right: 30px;
+}
+.product__box__menu__bottom h2{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A1A2C;
+}
+.product__box__menu__bottom h3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0A1A2C;
+}
+.product__box__menu__bottom button{
+    width: 86px;
+    height: 26px;
+    background: #005BB9;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.product__box__menu__bottom img{
+    height: 195px;
+    position: relative;
+    left: 7px;
+}
+.product__box__menu__bottom__opus{
+    margin-left: 30px;
+}
+.img__engine{
+    position: relative;
+    right: 3px;
+}
+.product__bottom__menu__icon__next, .product__bottom__menu__icon__prev{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.15));
+}
+.product__bottom__menu__icon__next{
+    position: relative;
+    top: 80px;
+    right: 40px;
+}
+.img__next img{
+    position: relative;
+    left: 7px;
+}
+.product__bottom__menu__icon__prev{
+    position: relative;
+    top: 80px;
+    left: 8px;
+}
+
+/*всі товари + новини сайту -- all menu product + news all menu*/
+
+.all__menu__product{
+    margin: 0 100px 0 140px;
+}
+.all__menu__product__button{
+    margin: 70px 0 10px 0;
+}
+.button__all-menu__box1{
+    width: 241px;
+    height: 55px;
+    background: #005BB9;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+.button__all-menu__box2{
+    width: 123px;
+    height: 55px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005BB9;
+    margin-right: 20px;
+}
+.button__all-menu__box3{
+    width: 229px;
+    height: 55px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005BB9;
+}
+.product__min__box{
+    margin: 0 40px 60px 0;
+}
+.response h3{
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    color: #B0B0B0;
+}
+.response img{
+    width: 39px;
+    height: 16px;
+    margin-right: 10px;
+}
+.product__min__box h2{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+}
+.price{
+    margin: 46px 0 20px 0;
+}
+.price h3{
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    margin-right: 4px;
+}
+.price a{
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+.product__bottom__box__menu > div > button > img{
+    margin: 0 10px 5px 0;
+}
+.product__bottom__box__menu > div > button{
+    width: 160px;
+    height: 44px;
+    background: #005BB9;
+    border-radius: 6px;
+    border: none;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+.product__bottom__box__menu > img{
+    margin-right: 20px;
+    height: 24px;
+    display: flex;
+    align-self: flex-end;
+}
+.button__product__box__all{
+    width: 200px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 530px;
+    cursor: pointer;
+}
+.button__product__box__all button{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #005BB9;
+    border: none;
+    background: none;
+}
+.news__all__menu{
+    margin-top: 80px;
+}
+.news__all__menu h2{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.news__background{
+    position: relative;
+    right: 130px;
+    margin-top: 14px;
+    height: 10px;
+    width: 117.1%;
+    background: #F5F5F5;
+}
+.news__list img{
+    position: relative;
+    bottom: 10px;
+}
+.news__link a{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+.news__box__1 > p, .news__box__2 > p, .news__box__3 > p, .news__box__4 > p{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.news__box__1, .news__box__2, .news__box__3{
+    margin-right: 10px;
+}
+
+/*footer menu*/
+
+.footer__menu{
+    margin-top: 160px;
+    height: 408px;
+    background: #0C1A2A;
+    padding: 0 110px 0 140px;
+}
+.footer__box__list__all{
+    padding-top: 40px;
+}
+.footer__box__list__all h2{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+}
+.footer__box__list__all h3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.footer__box__visa{
+    margin-top: 60px;
+}
+.footer__box__email{
+    position: relative;
+    left: 900px;
+    bottom: 220px;
+    width: 470px;
+}
+.email__box{
+    width: 450px;
+    height: 40px;
+    border: 1px solid #203246;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.email__box h3{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ADBDD1;
+    position: relative;
+    left: 15px;
+    top: 4px;
+}
+
+.email__box button{
+    width: 177px;
+    height: 40px;
+    background: #005BB9;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.img__footer__box__email img{
+    height: 20px;
+    width: 20px;
+    margin: 27px 60px 0 0;
+    position: relative;
+    left: 180px;
+}
+.bottom__box__footer{
+    position: relative;
+    bottom: 130px;
+}
+.bottom__box__footer h3{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737E9B;
+}
+.top__footer__box h3{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 21px;
+    color: #858CAB;
+}
+.top__footer__box > h3 > span{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
