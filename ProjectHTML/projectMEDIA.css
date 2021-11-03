@@ -141,7 +141,7 @@
         width: 300px;
         height: 150px;
         position: relative;
-        right: 130px;
+        right: 125px;
     }
     .product__top{
         height: 700px;
@@ -199,10 +199,13 @@
         width: 300px;
         position: relative;
         top: 160px;
-        right: 136px;
+        right: 131px;
     }
     .product__box__right{
         width: 150px;
+    }
+    .product__box__left{
+        left: 10px;
     }
     .product__box__right h2{
         font-size: 12px;
@@ -241,7 +244,7 @@
         width: 300px;
         height: 150px;
         position: relative;
-        left: 10px;
+        left: 15px;
         bottom: 70px;
     }
     .product__box__menu__bottom img{
@@ -293,7 +296,7 @@
         margin: 0;
     }
     .all__menu__product__button{
-        margin: 0 0 10px 0;
+        margin: 0 0 20px 5px;
     }
     .button__all-menu__box1{
         width: 100px;
@@ -313,9 +316,9 @@
         bottom: 100px;
     }
     .product__min__box{
-        width: 110px;
+        width: 115px;
         height: 280px;
-        margin: 100px 30px 0 10px;
+        margin: 100px 19px 0 25px;
     }
     .product__min__box > img{
         width: 130px;
@@ -341,7 +344,7 @@
         font-size: 12px;
     }
     .button__product__box__all{
-        left: 60px;
+        left: 65px;
     }
     .news__background{
         display: none;
@@ -392,11 +395,17 @@
         bottom: 0;
         border-top: 2px solid #1D3044;
         margin-top: 10px;
+        width: 103%;
+        position: relative;
+        right: 10px;
     }
     .bottom__box__footer h3{
         height: 40px;
+        width: 90%;
         display: flex;
         align-items: center;
+        position: relative;
+        left: 10px;
     }
     .email__box{
         width: 300px;
