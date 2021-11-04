@@ -1,0 +1,565 @@
+@media screen and (max-width: 770px) {
+    .header__menu__right__box {
+        display: none;
+    }
+
+    .header__menu__all {
+        padding: 0;
+    }
+
+    .header__menu__all__left {
+        position: relative;
+        right: 49px;
+    }
+
+    .header__menu__left__box {
+        font-size: 13px;
+    }
+
+    .header__menu__left__box span {
+        margin-left: 5px;
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+    .header__menu__left__box__1, .header__menu__left__box__2 {
+        font-size: 13px;
+    }
+
+    .header__mobile__menu__ipad {
+        display: block;
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        color: #FFFFFF;
+        position: relative;
+        left: 35px;
+    }
+
+    .all__menu__top {
+        padding: 0;
+    }
+
+    .menu__top__box__1 {
+        position: relative;
+        left: 100px;
+        top: 15px;
+    }
+
+    .menu__top__box__1 h2 {
+        font-size: 10px;
+        font-weight: bold;
+        width: 150px;
+    }
+
+    .menu__top__box__2 {
+        position: relative;
+        bottom: 15px;
+        left: 130px;
+    }
+
+    .menu__top__box__2 img {
+        height: 24px;
+    }
+
+    .menu__top__box__3 {
+        position: relative;
+        top: 40px;
+        right: 95px;
+    }
+
+    .menu__top__box__3 img {
+        height: 24px;
+    }
+
+    .box__2__block__2 h2 {
+        font-size: 12px;
+        font-weight: bold;
+        width: 190px;
+    }
+
+    .box__3__block__2 h2 {
+        font-size: 12px;
+        font-weight: bold;
+        width: 120px;
+        margin-left: 15px;
+    }
+
+    .menu__top__box__4 {
+        height: 20px;
+        position: relative;
+        top: 35px;
+        left: 40px;
+    }
+
+    .box__4__block__2 {
+        width: 170px;
+    }
+
+    .menu__top__box__5 {
+        position: relative;
+        right: 85px;
+        top: 5px;
+    }
+
+    .menu__top__box__5 h2 {
+        font-size: 16px;
+        width: 150px;
+    }
+
+    .box__5__block__2 h3 {
+        font-size: 12px;
+        position: relative;
+        right: 25px;
+        bottom: 10px;
+    }
+
+    .search__menu {
+        width: 290px;
+        height: 40px;
+        position: relative;
+        right: -15px;
+    }
+
+    .search__menu__button {
+        width: 90px;
+        height: 40px;
+        position: relative;
+        right: -15px;
+    }
+
+    .search__menu__button button div {
+        font-size: 13px;
+    }
+
+    .search__menu h3 {
+        font-size: 12px;
+        margin-top: -5px;
+    }
+
+    .bottom__box__1 {
+        height: 40px;
+        width: 45px;
+        position: relative;
+        right: 5px;
+    }
+
+    .bottom__box__1 span {
+        display: none;
+    }
+
+    .all__menu__button {
+        position: relative;
+        left: 5.5px;
+    }
+
+    .bottom__box__3 img, .bottom__box__4 img, .bottom__box__5 img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .bottom__box__3 h2, .bottom__box__4 h3, .bottom__box__5 h3 {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .bottom__box__3, .bottom__box__4, .bottom__box__5 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom__box__3 {
+        position: relative;
+        left: 20px;
+    }
+
+    .bottom__box__3 h2 {
+        position: relative;
+        top: 8px;
+        left: 7px;
+    }
+
+    .bottom__box__4 {
+        position: relative;
+        left: 28px;
+    }
+
+    .bottom__box__4 h3 {
+        position: relative;
+        top: 7px;
+        left: 5px;
+    }
+
+    .bottom__box__5 {
+        position: relative;
+        left: 33px;
+    }
+
+    .bottom__box__5 h3 {
+        width: 80px;
+        font-weight: normal;
+        position: relative;
+        top: 13px;
+        right: 2px;
+    }
+
+    .product__top__slaider {
+        width: 480px;
+        position: relative;
+        right: 115px;
+    }
+
+    .carousel__item__box__1 h2 {
+        font-size: 26px;
+    }
+
+    .item__box__1__header h4 {
+        font-size: 16px;
+    }
+
+    .item__box__1__footer h4 {
+        font-size: 18px;
+        position: relative;
+        bottom: 35px;
+        right: 160px;
+    }
+
+    .item__box__1__footer h3 {
+        font-size: 30px;
+    }
+
+    .item__box__1__button {
+        width: 150px;
+        height: 46px;
+    }
+
+    .item__box__1__button button {
+        font-size: 14px;
+    }
+
+    .item__box__1__button img {
+        margin-bottom: 5px;
+    }
+
+    .carousel__item__box__1 {
+        position: relative;
+        left: 30px;
+        bottom: 330px;
+    }
+
+    .item__box__1__header {
+        margin-bottom: 50px;
+    }
+
+    .carousel__item__box__1 > .item__box__1__img img {
+        width: 230px;
+        height: 210px;
+        position: relative;
+        top: 50px;
+        right: 130px;
+    }
+
+    .product__top__column {
+        width: 200px;
+        position: relative;
+        right: 115px;
+        bottom: 3px;
+    }
+
+    .product__top__box {
+        width: 235px;
+        height: 149px;
+    }
+
+    .product__top__box h3 {
+        font-size: 12px;
+    }
+
+    .product__box__left img {
+        width: 70px;
+        height: 65px;
+    }
+
+    .product__box__right {
+        left: 80px;
+    }
+
+    .product__box__right h2 {
+        font-size: 11.5px;
+        font-weight: bold;
+    }
+
+    .product__box__right h3 {
+        font-size: 10px;
+    }
+
+    .product__box__bottom {
+        left: 60px;
+    }
+
+    .product__box__bottom button {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 2px;
+        left: -5px;
+    }
+
+    .product__box__bottom button img {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 3px;
+    }
+
+    .product__box__bottom h3 {
+        font-size: 18px;
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+
+    .product__box__bottom h4 {
+        font-size: 14px;
+        position: relative;
+        right: 42px;
+        bottom: 5px;
+    }
+
+    .product__bottom__menu {
+        margin: 0 0 0 7px;
+        overflow: hidden;
+        position: relative;
+        bottom: 45px;
+    }
+
+    .product__box__menu__bottom {
+        margin-right: 10px;
+    }
+
+    .product__box__menu__bottom h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .product__box__menu__bottom h3 {
+        font-size: 12px;
+        width: 150px;
+        font-weight: bold;
+    }
+
+    .product__box__menu__bottom img {
+        width: 110px;
+        height: 125px;
+    }
+
+    .product__box__menu__bottom button {
+        font-size: 13px;
+    }
+
+    .all__menu__product__button {
+        margin: 0;
+    }
+
+    .button__all-menu__box1 {
+        width: 200px;
+        font-size: 16px;
+    }
+
+    .button__all-menu__box2 {
+        width: 100px;
+        font-size: 16px;
+    }
+
+    .button__all-menu__box3 {
+        width: 170px;
+        font-size: 16px;
+    }
+
+    .all__menu__product {
+        margin: 0 0 0 25px;
+    }
+
+    .product__min__box {
+        margin: 15px 30px;
+        width: 155px;
+        position: relative;
+        right: 35px;
+    }
+
+    .product__min__box img {
+        width: 170px;
+    }
+
+    .product__min__box h2 {
+        font-size: 15px;
+    }
+
+    .response img {
+        width: 36px;
+        height: 16px;
+    }
+
+    .response h3 {
+        font-size: 13px;
+    }
+
+    .product__bottom__box__menu button {
+        width: 190px;
+        font-size: 12px;
+    }
+
+    .product__bottom__box__menu button img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .product__min__box img {
+        margin: 0 5px;
+    }
+
+    .product__bottom__box__menu img {
+        display: none;
+    }
+
+    .product__min__box__ipad {
+        display: block;
+        margin: 15px 30px;
+        width: 160px;
+        position: relative;
+        right: 30px;
+    }
+    .product__min__box__ipad h2{
+        font-size: 15px;
+    }
+
+    .product__min__box__ipad img {
+        width: 170px;
+    }
+
+    .product__min__box__ipad > .response img {
+        width: 36px;
+        height: 16px;
+    }
+    .product__min__box__ipad > .response h3{
+        font-size: 13px;
+    }
+    .button__product__box__all{
+        top: 20px;
+        left: 280px;
+    }
+    .news__all__menu h2{
+        font-size: 23px;
+    }
+    .news__box__4{
+        display: none;
+    }
+    .news__box__1 , .news__box__2 , .news__box__3 {
+        width: 243px;
+    }
+    .news__box__1 p, .news__box__2 p, .news__box__3 p{
+        font-size: 14px;
+    }
+    .news__link{
+        font-size: 14px;
+    }
+    .news__box__2{
+        margin: 0;
+        position: relative;
+        left: 20px;
+    }
+    .news__all__menu{
+        overflow: hidden;
+    }
+    .footer__menu{
+        margin-top: 100px;
+        height: 670px;
+    }
+    .footer__box__list__all{
+        flex-wrap: wrap;
+    }
+    .footer__box__list__1{
+        position: relative;
+        right: 100px;
+    }
+    .footer__box__list__2{
+        position: relative;
+        right: 250px;
+    }
+    .footer__box__list__3{
+        position: relative;
+        bottom: 253px;
+        left: 330px;
+    }
+    .footer__box__visa{
+        margin-top: 20px;
+    }
+    .footer__box__list__4{
+        position: relative;
+        top: 50px;
+        right: 510px;
+    }
+    .footer__box__list__5{
+        position: relative;
+        bottom: 216px;
+        left: 100px;
+    }
+    .footer__box__email{
+        left: 0;
+        bottom: 180px;
+    }
+    .top__footer__box h3, .top__footer__box h4{
+        font-size: 16px;
+    }
+    .top__footer__box h3{
+        width: 320px;
+        position: relative;
+        right: 100px;
+    }
+    .top__footer__box > h3 > span{
+        margin-left: 51px;
+        position: relative;
+        right: 51px;
+    }
+    #ipad__footer{
+        position: relative;
+        left: 200px;
+        bottom: 50px;
+    }
+    .email__box{
+        width: 410px;
+        position: relative;
+        bottom: 40px;
+        left: 200px;
+    }
+    .email__box button{
+        width: 150px;
+    }
+    .img__footer__box__email{
+        position: relative;
+        bottom: 50px;
+        left: 20px;
+    }
+    .bottom__box__footer h3 {
+        font-size: 16px;
+    }
+    .bottom__box__footer{
+        position: relative;
+        right: 142px;
+        bottom: 190px;
+        border-top: 1px solid rgba(255, 255, 255, 0.71);
+        width: 770px;
+    }
+    .bottom__box__footer h3{
+        position: relative;
+        top: 7px;
+        left: 40px;
+        width: 500px;
+    }
+    .product__box__right{
+        width: 150px;
+    }
+    .product__box__bottom{
+        width: 170px;
+    }
+
+}
