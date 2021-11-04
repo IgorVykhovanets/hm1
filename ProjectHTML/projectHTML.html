@@ -9,6 +9,7 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="projectStyle.css">
     <link rel="stylesheet" href="projectMEDIA.css">
+<!--    <link rel="stylesheet" href="projectMediaIPAD.css">-->
     <title>Final Project</title>
 </head>
 <body>
@@ -17,7 +18,8 @@
     <div class="header__menu__all d-flex justify-content-around align-items-center">
         <div class="header__menu__all__left d-flex">
             <div class="header__menu__left__box d-flex align-items-center"><img src="image/placeholder%20white.png"
-                                                                                alt="placeholder">Ваш город: Москва
+                                                                                alt="placeholder">Ваш город:
+                <span>Москва</span>
                 <div class="header__mobile__menu">Еще <img src="image/mobile%20menu.png" alt="mobile menu"></div>
             </div>
             <div class="header__menu__left__box__1 d-flex align-items-center">
@@ -37,6 +39,7 @@
             <div class="header__menu__right__box">Журнал</div>
             <div class="header__menu__right__box">О магазине</div>
             <div class="header__menu__right__box">Контакты</div>
+            <div class="header__mobile__menu__ipad">Еще <img src="image/mobile%20menu.png" alt="mobile menu"></div>
         </div>
     </div>
 </div>
@@ -46,7 +49,7 @@
         <div class="menu__top__box__1 d-flex justify-content-around align-items-center"><img
                 src="image/Mask%20Group.png" alt="logo">
             <div class="box__1__block__2"><h1>AVT-ZAP</h1>
-                <h2>Интернет-магазин запчастей
+                <h2>Интернет-магазин запчастей <br>
                     для АКПП</h2></div>
         </div>
         <div class="menu__top__box__2 d-flex justify-content-around align-items-center"><img
@@ -423,6 +426,25 @@
                 <img src="image/market-fluctuation%201.png" alt="market">
             </div>
         </div>
+        <div class="product__min__box__ipad">
+            <img src="image/avt-zap_main_page_v01%20(1)йцу%2012.png" alt="product">
+            <div class="response d-flex">
+                <img src="image/Group%20224.png" alt="stars">
+                <h3>10 отзывов</h3>
+            </div>
+            <h2>Intermediate accumelator sleeve</h2>
+            <div class="price d-flex">
+                <h3>ЦЕНА</h3>
+                <a href="#">по запросу</a>
+            </div>
+            <div class="product__bottom__box__menu d-flex">
+                <div>
+                    <button><img src="image/cart%20white.png" alt="cart">В корзину</button>
+                </div>
+                <img src="image/heart-shape-outline%202.png" alt="heart">
+                <img src="image/market-fluctuation%201.png" alt="market">
+            </div>
+        </div>
     </div>
     <div class="button__product__box__all ">
         <button>Показать еще</button>
@@ -530,7 +552,7 @@
     <div class="footer__box__email">
         <div class="top__footer__box">
             <h3>Мы онлайн, воспользуйтесь <span>Форма обратной связи</span></h3>
-            <h3>Подпишитесь на нашу расслыку и <br>
+            <h3 id="ipad__footer">Подпишитесь на нашу расслыку и <br>
                 вы первыми узнаете о скидках и акциях</h3>
         </div>
         <div class="email__box d-flex justify-content-between align-items-center"><h3>Введите ваш email</h3>

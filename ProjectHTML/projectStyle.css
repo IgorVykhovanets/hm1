@@ -725,3 +725,9 @@ body{
 .img__phone{
     display: none;
 }
+.header__mobile__menu__ipad{
+    display: none;
+}
+.product__min__box__ipad{
+    display: none;
+}
