@@ -403,6 +403,7 @@
         margin-bottom: 20px;
         position: relative;
         left: 5px;
+        width: 400px;
     }
     .footer__box__email{
         left: 0;
@@ -416,7 +417,7 @@
         bottom: 0;
         border-top: 2px solid #1D3044;
         margin-top: 10px;
-        width: 102%;
+        width: 100%;
         position: relative;
         right: 10px;
     }
